@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+     <section class="section1 container">
+     
+     
+  
+  <div class="overlay">
+
+    <h1 id="title">Client Insight Form for Hair Services</h1>
+    <p id="description">We want to make sure we provide you with the best possible hair services. To help us understand your needs and preferences, please take a few moments to complete this short form. Your feedback is important to us and will ensure that we meet your expectations during your visit to our salon. Thank you for choosing us for your hair care needs.</p>
+    </div>
+         </section>
+       
+
+    <form id="survey-form"  method="post" action='https://register-demo.freecodecamp.org'>
+
+       <section class="section2">
+     <div>
+        <fieldset>
+           <legend> <h2>About you</h2> </legend>
+<fieldset class="flexdirection">
+       <legend>You are:</legend>
+        <div class="gender">
+        <img src="https://i.ibb.co/5vN2XTG/Frame-20.png" alt="A woman ">                       
+        <label for="woman"><input id="woman" value="woman" type="radio" name="gender" class="inline" /> A woman</label>
+        </div> 
+        <div class="gender">
+        <img src="https://i.ibb.co/6DYz7tX/Frame-21.png" alt="A MAN"/>       
+        <label for="man"><input id="man" value="man" type="radio" name="gender" class="inline" /> A man</label>
+        </div>
+       </fieldset> 
+
+       
+        
+        <label id="name-label" for="name">Full name: <input id="name" name="name" type="text" placeholder="Enter your full name" required /></label>
+        
+        <label id="email-label" for="email">Email: <input id="email" name="email" type="email" placeholder="Enter your email" required /></label>
+        
+        <label id="number-label" for="number">Phone number: <input id="number" name="number" type="number" min="0" max="9999999999" placeholder="Enter your phone number" required /></label>
+
+        <label for="referrer">How did you get to know us?
+          <select id="dropdown" name="referrer">
+            <option value="">Select...</option>
+            <option value="1">A friend </option>
+            <option value="2">Social media Channel</option>
+            <option value="3">Google Research</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+      </fieldset>
+    </div>
+         </section>
+
+<section class="section3">
+     <div>   <fieldset>                    
+        <legend >  <h2>About your hair</h2></legend>
+    <fieldset class="flexdirection">
+       <legend>What's your hair type?</legend>
+       
+      
+        <label for="Straight"><input id="straight" value="straight" type="radio" name="hair-type" class="inline" /> Straight</label>
+       
+        <label for="Wavy"><input id="wavy" value="wavy"  type="radio" name="hair-type" class="inline" /> Wavy</label>
+        <label for="Curly"><input id="curly"  value="curly"  type="radio" name="hair-type" class="inline" /> Curly</label>
+        <label for="Coily"><input id="coily" value="coily"  type="radio" name="hair-type" class="inline" /> Coily</label>
+       </fieldset>  
+        
+  <fieldset >
+       <legend>What's your hair length?</legend>
+        <label for="Haircut">         
+          <input id="Haircut" value="Haircut" type="checkbox" required name="Haircut" class="inline" />Haircut 
+        </label>
+        <label for="Haircolor">         
+          <input id="Haircolor" value="Haircolor"  type="checkbox" required name="Haircolor" class="inline" />Hair color
+        </label>
+        <label for="Hairstyling">         
+          <input id="Hairstyling" value="Hairstyling"  type="checkbox" required name="Hairstyling " class="inline" />Hair styling 
+        </label>
+        <label for="Hairtreatment">         
+          <input id="Hairtreatment" value="Hairtreatment"  type="checkbox" required name="Hairtreatment" class="inline" />Hair treatment
+        </label>
+  </fieldset>
+     
+        
+
+        <label for="bio">Tell us about your project: 
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="For a mariage, I would like a special hair style "></textarea>
+        </label>
+      </fieldset>
+    </div>
+         </section>
+      
+     
+      
+      
+     
+  <section class="section4">
+     <div>
+        <p> Thank you for taking the time to complete this form. This information will help us provide you with the best possible hair services and experience at our salon.</p> 
+      
+      <input type="submit" value="Submit" id="submit" />
+    </div>
+         </section>     
+    
+    </form>
+  </body>
+</html>
+
+
+  <section >
+     <div>
+    </div>
+         </section>
+
+  
+
+ 
